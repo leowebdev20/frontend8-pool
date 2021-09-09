@@ -7,5 +7,12 @@
       "dependsOn": [],
       "customAuth": true
     }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual"
+    }
   }
 }

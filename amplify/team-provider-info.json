@@ -1,25 +1,31 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-frontend8pool-dev-124810-authRole",
-      "UnauthRoleArn": "arn:aws:iam::530880984485:role/amplify-frontend8pool-dev-124810-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::530880984485:role/amplify-frontend8pool-dev-124810-authRole",
-      "Region": "eu-central-1",
-      "DeploymentBucketName": "amplify-frontend8pool-dev-124810-deployment",
-      "UnauthRoleName": "amplify-frontend8pool-dev-124810-unauthRole",
-      "StackName": "amplify-frontend8pool-dev-124810",
-      "StackId": "arn:aws:cloudformation:eu-central-1:530880984485:stack/amplify-frontend8pool-dev-124810/6df4ab10-115b-11ec-b3aa-0281c7a899d0",
-      "AmplifyAppId": "dad5gonm54uc5"
-    },
-    "categories": {
-      "auth": {
-        "frontend8poole3ead4cc": {
-          "userPoolId": "eu-central-1_e7Jo5RQI3",
-          "userPoolName": "digital4_pool",
-          "webClientId": "28bt3s0m58kuf2sgtmupki46d3",
-          "nativeClientId": "28bt3s0m58kuf2sgtmupki46d3"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-frontend8pool-dev-124810-authRole",
+            "UnauthRoleArn": "arn:aws:iam::530880984485:role/amplify-frontend8pool-dev-124810-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::530880984485:role/amplify-frontend8pool-dev-124810-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-frontend8pool-dev-124810-deployment",
+            "UnauthRoleName": "amplify-frontend8pool-dev-124810-unauthRole",
+            "StackName": "amplify-frontend8pool-dev-124810",
+            "StackId": "arn:aws:cloudformation:eu-central-1:530880984485:stack/amplify-frontend8pool-dev-124810/6df4ab10-115b-11ec-b3aa-0281c7a899d0",
+            "AmplifyAppId": "dad5gonm54uc5"
+        },
+        "categories": {
+            "auth": {
+                "frontend8poole3ead4cc": {
+                    "userPoolId": "eu-central-1_e7Jo5RQI3",
+                    "userPoolName": "digital4_pool",
+                    "webClientId": "28bt3s0m58kuf2sgtmupki46d3",
+                    "nativeClientId": "28bt3s0m58kuf2sgtmupki46d3"
+                }
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "dad5gonm54uc5",
+                    "type": "manual"
+                }
+            }
         }
-      }
     }
-  }
 }
