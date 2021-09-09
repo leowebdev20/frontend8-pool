@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "frontend8poole3ead4cc": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": true
+    }
+  }
+}
